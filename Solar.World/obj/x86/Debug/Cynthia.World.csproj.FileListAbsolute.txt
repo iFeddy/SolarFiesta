@@ -1,0 +1,13 @@
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.World\obj\x86\Debug\Cynthia.World.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.World.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.World.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.World\obj\x86\Debug\Cynthia.World.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.World\obj\x86\Debug\Cynthia.World.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.World\obj\x86\Debug\Cynthia.World.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.World\obj\x86\Debug\Cynthia.World.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.World\obj\x86\Debug\Cynthia.World.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.World\obj\x86\Debug\Cynthia.World.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.World\obj\x86\Debug\Cynthia.World.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.World.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.World.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.World\obj\x86\Debug\Cynthia.World.csprojResolveAssemblyReference.cache

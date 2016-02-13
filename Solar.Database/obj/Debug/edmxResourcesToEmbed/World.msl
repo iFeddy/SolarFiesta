@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SolarDatabaseStoreContainer" CdmEntityContainer="WorldEntity">
+    <EntitySetMapping Name="Characters">
+      <EntityTypeMapping TypeName="Solar.Database.Character">
+        <MappingFragment StoreEntitySet="Character">
+          <ScalarProperty Name="GuildID" ColumnName="GuildID" />
+          <ScalarProperty Name="UsablePoints" ColumnName="UsablePoints" />
+          <ScalarProperty Name="ClientSettings" ColumnName="ClientSettings" />
+          <ScalarProperty Name="GameSettings" ColumnName="GameSettings" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Slot" ColumnName="Slot" />
+          <ScalarProperty Name="Map" ColumnName="Map" />
+          <ScalarProperty Name="CharLevel" ColumnName="CharLevel" />
+          <ScalarProperty Name="Job" ColumnName="Job" />
+          <ScalarProperty Name="Male" ColumnName="Male" />
+          <ScalarProperty Name="HP" ColumnName="HP" />
+          <ScalarProperty Name="SP" ColumnName="SP" />
+          <ScalarProperty Name="HPStones" ColumnName="HPStones" />
+          <ScalarProperty Name="SPStones" ColumnName="SPStones" />
+          <ScalarProperty Name="Exp" ColumnName="Exp" />
+          <ScalarProperty Name="Fame" ColumnName="Fame" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="Hair" ColumnName="Hair" />
+          <ScalarProperty Name="HairColor" ColumnName="HairColor" />
+          <ScalarProperty Name="Face" ColumnName="Face" />
+          <ScalarProperty Name="XPos" ColumnName="XPos" />
+          <ScalarProperty Name="YPos" ColumnName="YPos" />
+          <ScalarProperty Name="StatPoints" ColumnName="StatPoints" />
+          <ScalarProperty Name="StrStats" ColumnName="StrStats" />
+          <ScalarProperty Name="EndStats" ColumnName="EndStats" />
+          <ScalarProperty Name="DexStats" ColumnName="DexStats" />
+          <ScalarProperty Name="IntStats" ColumnName="IntStats" />
+          <ScalarProperty Name="SprStats" ColumnName="SprStats" />
+          <ScalarProperty Name="CurrentTitle" ColumnName="CurrentTitle" />
+          <ScalarProperty Name="QuickBar" ColumnName="QuickBar" />
+          <ScalarProperty Name="QuickBarState" ColumnName="QuickBarState" />
+          <ScalarProperty Name="Shortcuts" ColumnName="Shortcuts" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatabaseEquips">
+      <EntityTypeMapping TypeName="Solar.Database.DatabaseEquip">
+        <MappingFragment StoreEntitySet="Equip">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="Slot" ColumnName="Slot" />
+          <ScalarProperty Name="EquipID" ColumnName="EquipID" />
+          <ScalarProperty Name="Upgrades" ColumnName="Upgrades" />
+          <ScalarProperty Name="IncStr" ColumnName="IncStr" />
+          <ScalarProperty Name="IncEnd" ColumnName="IncEnd" />
+          <ScalarProperty Name="IncDex" ColumnName="IncDex" />
+          <ScalarProperty Name="IncInt" ColumnName="IncInt" />
+          <ScalarProperty Name="IncSpr" ColumnName="IncSpr" />
+          <ScalarProperty Name="Expires" ColumnName="Expires" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatabaseItems">
+      <EntityTypeMapping TypeName="Solar.Database.DatabaseItem">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Slot" ColumnName="Slot" />
+          <ScalarProperty Name="ObjectID" ColumnName="ObjectID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DatabaseSkills">
+      <EntityTypeMapping TypeName="Solar.Database.DatabaseSkill">
+        <MappingFragment StoreEntitySet="Skills">
+          <ScalarProperty Name="IsPassive" ColumnName="IsPassive" />
+          <ScalarProperty Name="Upgrades" ColumnName="Upgrades" />
+          <ScalarProperty Name="SkillID" ColumnName="SkillID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guilds">
+      <EntityTypeMapping TypeName="Solar.Database.Guild">
+        <MappingFragment StoreEntitySet="Guild">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

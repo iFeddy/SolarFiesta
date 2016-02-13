@@ -1,0 +1,5 @@
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Solar.Util.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Solar.Util.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Util\obj\Debug\Solar.Util.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Util\obj\Debug\Solar.Util.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Util\obj\Debug\Solar.Util.pdb

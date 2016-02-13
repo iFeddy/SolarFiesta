@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2</Version>
+  <WorldName>Teva</WorldName>
+  <ID>0</ID>
+  <IP>127.0.0.1</IP>
+  <Port>9110</Port>
+  <ZoneBasePort>9210</ZoneBasePort>
+  <ZoneCount>3</ZoneCount>
+  <TransferTimeout>30000</TransferTimeout>
+  <Debug>true</Debug>
+  <WorkInterval>1</WorkInterval>
+  <LoginServiceURI>net.pipe://localhost/LoginService</LoginServiceURI>
+  <WorldServiceURI>net.pipe://localhost/WorldService</WorldServiceURI>
+  <GameServiceURI>net.pipe://localhost/GameService</GameServiceURI>
+  <InterPassword>buttsecks</InterPassword>
+  <LoginServerIP>127.0.0.1</LoginServerIP>
+  <LoginServerPort>10000</LoginServerPort>
+  <InterServerPort>11000</InterServerPort>
+  <DataFolder>Data</DataFolder>
+  <ShowEquips>false</ShowEquips>
+  <Entity>
+    <DataSource>DESKTOP-QLB48EJ\SQLEXPRESS</DataSource>
+    <DataCatalog>world</DataCatalog>
+    <Metadata>res://*/World.csdl|res://*/World.ssdl|res://*/World.msl</Metadata>
+  </Entity>
+</Settings>

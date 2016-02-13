@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2</Version>
+  <Port>9010</Port>
+  <Debug>true</Debug>
+  <WorkInterval>1</WorkInterval>
+  <LoginServiceURI>net.pipe://localhost/LoginService</LoginServiceURI>
+  <InterPassword>buttsecks</InterPassword>
+  <InterServerPort>10000</InterServerPort>
+  <DataFolder>Data</DataFolder>
+  <Entity>
+    <DataSource>DESKTOP-QLB48EJ\SQLEXPRESS</DataSource>
+    <DataCatalog>login</DataCatalog>
+    <Metadata>res://*/Account.csdl|res://*/Account.ssdl|res://*/Account.msl</Metadata>
+  </Entity>
+</Settings>

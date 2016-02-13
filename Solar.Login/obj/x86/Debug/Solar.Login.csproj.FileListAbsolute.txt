@@ -1,0 +1,5 @@
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Login\obj\x86\Debug\Cynthia.Login.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Login\obj\x86\Debug\Cynthia.Login.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Login\obj\x86\Debug\Solar.Login.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.pdb

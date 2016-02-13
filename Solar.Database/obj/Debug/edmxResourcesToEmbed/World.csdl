@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Solar.Database" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="WorldEntity" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Characters" EntityType="Solar.Database.Character" />
+    <EntitySet Name="DatabaseEquips" EntityType="Solar.Database.DatabaseEquip" />
+    <AssociationSet Name="FK_Equip_Character" Association="Solar.Database.FK_Equip_Character">
+      <End Role="Character" EntitySet="Characters" />
+      <End Role="Equip" EntitySet="DatabaseEquips" />
+    </AssociationSet>
+    <EntitySet Name="DatabaseItems" EntityType="Solar.Database.DatabaseItem" />
+    <AssociationSet Name="FK_Item_Character1" Association="Solar.Database.FK_Item_Character1">
+      <End Role="Character" EntitySet="Characters" />
+      <End Role="Item" EntitySet="DatabaseItems" />
+    </AssociationSet>
+    <EntitySet Name="DatabaseSkills" EntityType="Solar.Database.DatabaseSkill" />
+    <AssociationSet Name="FK_Skills_Character" Association="Solar.Database.FK_Skills_Character">
+      <End Role="Character" EntitySet="Characters" />
+      <End Role="Skill" EntitySet="DatabaseSkills" />
+    </AssociationSet>
+    <EntitySet Name="Guilds" EntityType="Solar.Database.Guild" />
+    <AssociationSet Name="FK_Character_Guild" Association="Solar.Database.FK_Character_Guild">
+      <End Role="Guild" EntitySet="Guilds" />
+      <End Role="Character" EntitySet="Characters" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Character">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AccountID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Slot" Type="Byte" Nullable="false" />
+    <Property Name="Map" Type="Byte" Nullable="false" />
+    <Property Name="CharLevel" Type="Byte" Nullable="false" />
+    <Property Name="Job" Type="Byte" Nullable="false" />
+    <Property Name="Male" Type="Boolean" Nullable="false" />
+    <Property Name="HP" Type="Int32" Nullable="false" />
+    <Property Name="SP" Type="Int32" Nullable="false" />
+    <Property Name="HPStones" Type="Int16" Nullable="false" />
+    <Property Name="SPStones" Type="Int16" Nullable="false" />
+    <Property Name="Exp" Type="Int64" Nullable="false" />
+    <Property Name="Fame" Type="Int32" Nullable="false" />
+    <Property Name="Money" Type="Int64" Nullable="false" />
+    <Property Name="Hair" Type="Byte" Nullable="false" />
+    <Property Name="HairColor" Type="Byte" Nullable="false" />
+    <Property Name="Face" Type="Byte" Nullable="false" />
+    <Property Name="XPos" Type="Int32" Nullable="false" />
+    <Property Name="YPos" Type="Int32" Nullable="false" />
+    <Property Name="StatPoints" Type="Byte" Nullable="false" />
+    <Property Name="StrStats" Type="Byte" Nullable="false" />
+    <Property Name="EndStats" Type="Byte" Nullable="false" />
+    <Property Name="DexStats" Type="Byte" Nullable="false" />
+    <Property Name="IntStats" Type="Byte" Nullable="false" />
+    <Property Name="SprStats" Type="Byte" Nullable="false" />
+    <Property Name="CurrentTitle" Type="Int32" />
+    <Property Name="QuickBar" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="QuickBarState" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Shortcuts" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Equips" Relationship="Solar.Database.FK_Equip_Character" FromRole="Character" ToRole="Equip" />
+    <NavigationProperty Name="Items" Relationship="Solar.Database.FK_Item_Character1" FromRole="Character" ToRole="Item" />
+    <Property Type="Binary" Name="GameSettings" MaxLength="64" FixedLength="false" />
+    <Property Type="Binary" Name="ClientSettings" MaxLength="392" FixedLength="false" />
+    <NavigationProperty Name="Skills" Relationship="Solar.Database.FK_Skills_Character" FromRole="Character" ToRole="Skill" />
+    <Property Type="Byte" Name="UsablePoints" Nullable="false" />
+    <Property Type="Int32" Name="GuildID" />
+    <NavigationProperty Name="Guild" Relationship="Solar.Database.FK_Character_Guild" FromRole="Character" ToRole="Guild" />
+  </EntityType>
+  <EntityType Name="DatabaseEquip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Owner" Type="Int32" Nullable="false" />
+    <Property Name="Slot" Type="Int16" Nullable="false" />
+    <Property Name="EquipID" Type="Int32" Nullable="false" />
+    <Property Name="Upgrades" Type="Byte" Nullable="false" />
+    <Property Name="IncStr" Type="Byte" Nullable="false" />
+    <Property Name="IncEnd" Type="Byte" Nullable="false" />
+    <Property Name="IncDex" Type="Byte" Nullable="false" />
+    <Property Name="IncInt" Type="Byte" Nullable="false" />
+    <Property Name="IncSpr" Type="Byte" Nullable="false" />
+    <Property Name="Expires" Type="DateTime" />
+    <NavigationProperty Name="Character" Relationship="Solar.Database.FK_Equip_Character" FromRole="Equip" ToRole="Character" />
+  </EntityType>
+  <Association Name="FK_Equip_Character">
+    <End Role="Character" Type="Solar.Database.Character" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Equip" Type="Solar.Database.DatabaseEquip" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Equip">
+        <PropertyRef Name="Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DatabaseItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="Owner" Nullable="false" />
+    <Property Type="Int32" Name="ObjectID" Nullable="false" />
+    <Property Type="Int16" Name="Slot" Nullable="false" />
+    <Property Type="Int16" Name="Amount" Nullable="false" />
+    <NavigationProperty Name="Character" Relationship="Solar.Database.FK_Item_Character1" FromRole="Item" ToRole="Character" />
+  </EntityType>
+  <Association Name="FK_Item_Character1">
+    <End Type="Solar.Database.Character" Role="Character" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Solar.Database.DatabaseItem" Role="Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Item">
+        <PropertyRef Name="Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DatabaseSkill">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="Owner" Nullable="false" />
+    <Property Type="Int16" Name="SkillID" Nullable="false" />
+    <Property Type="Int16" Name="Upgrades" Nullable="false" />
+    <NavigationProperty Name="Character" Relationship="Solar.Database.FK_Skills_Character" FromRole="Skill" ToRole="Character" />
+    <Property Type="Boolean" Name="IsPassive" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Skills_Character">
+    <End Type="Solar.Database.Character" Role="Character" Multiplicity="1" />
+    <End Type="Solar.Database.DatabaseSkill" Role="Skill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Skill">
+        <PropertyRef Name="Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Guild">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="16" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Characters" Relationship="Solar.Database.FK_Character_Guild" FromRole="Guild" ToRole="Character" />
+  </EntityType>
+  <Association Name="FK_Character_Guild">
+    <End Type="Solar.Database.Guild" Role="Guild" Multiplicity="0..1" />
+    <End Type="Solar.Database.Character" Role="Character" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guild">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Character">
+        <PropertyRef Name="GuildID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

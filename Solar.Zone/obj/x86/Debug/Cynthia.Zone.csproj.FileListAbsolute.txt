@@ -1,0 +1,13 @@
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Zone\obj\x86\Debug\Cynthia.Zone.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.Zone.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.Zone.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Zone\obj\x86\Debug\Cynthia.Zone.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Zone\obj\x86\Debug\Cynthia.Zone.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Zone.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Zone.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Zone\obj\x86\Debug\Cynthia.Zone.csprojResolveAssemblyReference.cache

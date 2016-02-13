@@ -1,0 +1,4 @@
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Solar.FiestaLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Solar.FiestaLib.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.FiestaLib\obj\Debug\Solar.FiestaLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.FiestaLib\obj\Debug\Solar.FiestaLib.pdb

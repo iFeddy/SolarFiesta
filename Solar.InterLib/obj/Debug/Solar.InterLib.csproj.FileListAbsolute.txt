@@ -1,0 +1,9 @@
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\obj\Debug\Solar.InterLib.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.InterLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.InterLib.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.FiestaLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.Util.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.FiestaLib.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\bin\Debug\Solar.Util.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\obj\Debug\Solar.InterLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.InterLib\obj\Debug\Solar.InterLib.pdb

@@ -1,0 +1,8 @@
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\bin\Debug\Solar.Database.dll.config
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\bin\Debug\Solar.Database.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\bin\Debug\Solar.Database.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\obj\Debug\Solar.Database.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\obj\Debug\Solar.Database.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\obj\Debug\Solar.Database.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\bin\Debug\Solar.Util.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Solar.Database\bin\Debug\Solar.Util.pdb

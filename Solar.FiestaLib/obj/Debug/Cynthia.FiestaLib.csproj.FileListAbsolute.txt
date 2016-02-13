@@ -1,0 +1,13 @@
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.FiestaLib\obj\Debug\Cynthia.FiestaLib.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.FiestaLib.dll
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.FiestaLib.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.FiestaLib\obj\Debug\Cynthia.FiestaLib.dll
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.FiestaLib\obj\Debug\Cynthia.FiestaLib.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.dll
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.FiestaLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.FiestaLib.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.dll
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.FiestaLib\obj\Debug\Cynthia.FiestaLib.pdb

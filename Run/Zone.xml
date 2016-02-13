@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2</Version>
+  <IP>127.0.0.1</IP>
+  <Debug>true</Debug>
+  <WorkInterval>1</WorkInterval>
+  <TransferTimeout>10000</TransferTimeout>
+  <WorldServiceURI>net.pipe://localhost/WorldService</WorldServiceURI>
+  <InterPassword>buttsecks</InterPassword>
+  <WorldServerIP>127.0.0.1</WorldServerIP>
+  <WorldServerPort>11000</WorldServerPort>
+  <InterServerPort>0</InterServerPort>
+  <DataFolder>Data</DataFolder>
+  <UseSHBD>true</UseSHBD>
+</Settings>

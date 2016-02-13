@@ -1,0 +1,13 @@
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Login\obj\x86\Debug\Cynthia.Login.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.Login.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Run\Cynthia.Login.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Login\obj\x86\Debug\Cynthia.Login.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Zepheus.Login\obj\x86\Debug\Cynthia.Login.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Login\obj\x86\Debug\Cynthia.Login.exe
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Login\obj\x86\Debug\Cynthia.Login.pdb
+C:\Users\HP\Documents\GitHub\Cynthia\Cynthia.Login\obj\x86\Debug\Cynthia.Login.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Login\obj\x86\Debug\Cynthia.Login.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Login\obj\x86\Debug\Cynthia.Login.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.exe
+C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.pdb
+C:\Users\Feddy\Desktop\Cynthia-master\Cynthia.Login\obj\x86\Debug\Cynthia.Login.csprojResolveAssemblyReference.cache
