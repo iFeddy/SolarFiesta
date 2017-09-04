@@ -3,3 +3,9 @@ C:\Users\Feddy\Desktop\Cynthia-master\Solar.Login\obj\x86\Debug\Cynthia.Login.pd
 C:\Users\Feddy\Desktop\Cynthia-master\Solar.Login\obj\x86\Debug\Solar.Login.csprojResolveAssemblyReference.cache
 C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.exe
 C:\Users\Feddy\Desktop\Cynthia-master\Run\Cynthia.Login.pdb
+E:\Feddy\C#\SolarFiesta\Run\Cynthia.Login.exe
+E:\Feddy\C#\SolarFiesta\Run\Cynthia.Login.pdb
+E:\Feddy\C#\SolarFiesta\Solar.Login\obj\x86\Debug\Solar.Login.csprojResolveAssemblyReference.cache
+E:\Feddy\C#\SolarFiesta\Solar.Login\obj\x86\Debug\Solar.Login.csproj.CoreCompileInputs.cache
+E:\Feddy\C#\SolarFiesta\Solar.Login\obj\x86\Debug\Cynthia.Login.exe
+E:\Feddy\C#\SolarFiesta\Solar.Login\obj\x86\Debug\Cynthia.Login.pdb
